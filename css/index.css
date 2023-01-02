@@ -1,0 +1,335 @@
+:root{
+    --main-text-color: #2e2f42;
+    --secondary-text-color: #434455;
+    --main-accent-color: #4d5ae5;
+    --secondary-accent-color: #e7e9fc;
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #f4f4fd;
+    --additional-bg-color: #e5e5e5;
+    --btn-accent-color: #404bbf;
+}
+
+body {
+    background-color: var(--main-bg-color);
+    color: var(--main-text-color);
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.container {
+    width: 1158px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.head {
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+/*--------HERO--------*/
+
+.hero {
+    background-color: var(--main-text-color);
+    max-width: 1440px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(to right, rgba(46, 47, 66, .7),
+         rgba(46, 47, 66, .7)),
+        url('../images/people-office.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+    padding-top: 192px;
+    padding-bottom: 192px;
+}
+
+.hero h1 {
+    display: block;
+    margin: 0 auto;
+    color: var(--main-bg-color);
+    width: 492px;
+    font-size: 56px;
+    font-weight: 600;
+    line-height: 1.07;
+    margin-top: 0;
+    margin-bottom: 48px;
+
+}
+
+.hero-btn {
+    display: inline-block;
+    border-radius: 4px;
+    padding: 16px 32px;
+    background-color: var(--main-accent-color);
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.18;
+    cursor: pointer;
+    border: none;
+    box-shadow: 0px 4px 4px rgba(0,0,0,0.15);
+}
+
+
+/*--------STRATEGY--------*/
+
+.strateg {
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.strategies {
+    display: flex;
+}
+
+.strategy {
+    width: calc((100% - 74px) / 4);
+}
+
+.strategies .strategy + .strategy {
+    margin-left: 24px;
+}
+
+.thumb {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+    background-color: #f4f4fd;
+}
+
+.thumb-icon {
+    width: 64px;
+    height: 64px;
+}
+
+.strategy-title {
+    margin-top: 0;
+    color: var(--main-text-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.strategy-descr {
+    margin-top: 0;
+    margin-bottom: 0;
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+
+/*--------DEVICES--------*/
+
+.devs-title {
+    color: var(--main-text-color);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.1;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 72px;
+}
+
+.devs {
+    padding-bottom: 120px;
+}
+
+.works {
+    display: flex;
+    align-items: center;
+}
+
+.works .work + .work {
+    margin-left: 24px;
+}
+
+/*--------TEAM--------*/
+
+.team {
+    background-color: var(--secondary-bg-color);
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.team-title {
+    margin-bottom: 72px;
+    margin-top: 0;
+    color: var(--main-text-color);
+    font-size: 36px;
+    font-weight: 600;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.members {
+    display: flex;
+    align-items: center;
+}
+
+.members .member + .member {
+    margin-left: 24px;
+}
+
+.member {
+    box-shadow: 0px 1px 6px rgba(47, 47, 66, 0.08),
+    0px 1px 1px 1px rgba(46, 47, 66, .16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0px 0px 4px 4px;
+    background-color: white;
+    padding-bottom: 0;
+}
+
+.member img {
+    display: block;
+}
+
+.description {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+
+.member-title {
+    margin-top: 0;
+    margin-bottom: 8px;
+    color: var(--main-text-color);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+.member-descr {
+    margin-bottom: 8px;
+    margin-top: 0;
+    color: var(--secondary-text-color);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+/*---social media---*/
+
+.member-media {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.media-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--main-accent-color);
+    border-radius: 50%;
+}
+
+.social-item {
+    width: 16px;
+    height: 16px;
+}
+
+.member-title, 
+.member-descr {
+    text-align: center;
+}
+
+/*--------CUSTOMERS---------*/
+
+.customers {
+    padding-top: 130px;
+    padding-bottom: 120px;
+}
+
+.customers-title {
+    margin-top: 0;
+    margin-bottom: 72px;
+    color: var(--main-text-color);
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 1.1;
+    text-align: center;
+}
+
+.companies {
+    display: flex;
+    justify-content: center;
+}
+
+.company {
+    width: calc((100% - 120px) / 6);
+    height: 88px;
+}
+
+.company:not(:last-child) {
+    margin-right: 24px;
+}
+
+.company-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border: 1px solid #8e8f99;
+    border-radius: 4px;
+    background-color: #ffffff;
+}
+
+.company-icon {
+    width: 104px;
+    height: 56px;
+    fill: #8e8f99;
+}
+
+.company-link:hover{
+    border-color: #4d5ae5;
+    border-radius: 4px;
+}
+
+.company-link:hover .company-icon {
+    fill: #4d5ae5;
+}
+
+
+.hero-btn:hover,
+.hero-btn:focus {
+    background-color: var(--btn-accent-color);
+    box-shadow: 0px 4px 4px rgba(0,0,0, .15);
+}
+
+.media-link:hover,
+.media-link:active {
+    background-color: var(--btn-accent-color);
+}
+
+/*
+colors 
+Cloud #f4f4fd
+iris #4D5AE5
+navy blue #2E2F42;
+green
+slate background: #434455;
+light slate #8e8f99
+conrflower border: 1px solid #E7E9FC
+navy blue modal
+
+
+css vars
+:root{
+    --primary-text-color: ...;
+    --title-text-color:...;
+    --accent-color:   ;
+}
+color: var(--primary-text-color);
+
+    and then change those colros for the vars
+
+*/
