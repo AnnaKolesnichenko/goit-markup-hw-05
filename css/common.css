@@ -1,3 +1,12 @@
+:root{
+    --main-text-color: #2e2f42;
+    --secondary-text-color: #434455;
+    --main-accent-color: #4d5ae5;
+    --secondary-accent-color: #e7e9fc;
+    --main-bg-color: #ffffff;
+    --secondary-bg-color: #f4f4fd;
+    --highlight-color: #31d0aa;
+}
 
 .list{
     list-style: none;
@@ -124,7 +133,7 @@ nav {
     height: 4px;
     bottom: 0;
     margin-top: -4px;
-    background-color: #4d5ae5;
+    background-color: var(--main-accent-color);
     border-radius: 2px;
 
 }
@@ -168,7 +177,7 @@ nav {
 }
 
 .media-title {
-    color: #ffffff;
+    color: var(--main-bg-color);
     font-size: 16px;
     font-weight: 500;
     line-height: 1.5;
@@ -219,5 +228,5 @@ nav {
 
 .media-item:hover,
 .media-item:active {
-    background-color: #31d0aa;
+    background-color: var(--highlight-color);
 }
