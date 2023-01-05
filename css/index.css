@@ -315,6 +315,9 @@ body {
     pointer-events: none;
 }
 
+.backdrop.backdrop.is-hidden .modal {
+    transform: translate(-50%) scale(0.5);
+}
 
 .modal {
     position: absolute;
@@ -323,12 +326,13 @@ body {
     height: 576px;
     width: 408px;
     background-color: #fcfcfc;
-    transform: translate(-50%);
+    transform: translate(-50%) scale(1);
     border-radius: 4px;
     box-shadow: 0px 1px 1px rgba(0,0,0, .14),
                 0px 1px 3px rgba(0,0,0, .12),
                 0px 2px 1px rgba(0,0,0,.2);
 }
+
 
 .close-vector {
     width: 8px;
