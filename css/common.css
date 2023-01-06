@@ -6,6 +6,7 @@
     --main-bg-color: #ffffff;
     --secondary-bg-color: #f4f4fd;
     --highlight-color: #31d0aa;
+    --link-active-highlight: #404bbf;
 }
 
 .list{
@@ -101,7 +102,7 @@ nav {
 }
 
 .site-nav .active {
-    color: var(--main-accent-color);
+    color: var(--link-active-highlight);
 }
 
 .contacts a {
@@ -138,7 +139,7 @@ nav {
     height: 4px;
     bottom: 0;
     margin-top: -4px;
-    background-color: var(--main-accent-color);
+    background-color: var(--link-active-highlight);
     border-radius: 2px;
 
 }

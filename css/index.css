@@ -362,12 +362,12 @@ body {
 
 .company-link:hover,
 .company-link:active {
-    border-color: var(--main-accent-color);
+    border-color: var(--btn-accent-color);
     border-radius: 4px;
 }
 
 .company-link:hover .company-icon {
-    fill: var(--main-accent-color);
+    fill: var(--btn-accent-color);
 }
 
 .hero-btn:hover,

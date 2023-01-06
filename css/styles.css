@@ -6,6 +6,7 @@
     --main-bg-color: #ffffff;
     --secondary-bg-color: #f4f4fd;
     --highlight-color: #31d0aa;
+    --btn-active-color: #404bbf;
 }
 
 body {
@@ -159,8 +160,8 @@ img {
 
 .filters-btn:hover,
 .filters-btn:focus {
-    background-color: var(--main-accent-color);
-    border-color: var(--main-accent-color);
+    background-color: var(--btn-active-color);
+    border-color: var(--btn-active-color);
     color: var(--main-bg-color);
     box-shadow: 0px 3px 1px rgba(0,0,0,.1), 
     0px 2px 1px rgba(0,0,0, .08),
